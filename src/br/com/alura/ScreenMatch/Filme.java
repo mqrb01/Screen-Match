@@ -32,7 +32,7 @@ public class Filme {
         return anoDeLancamento;
     }
 
-    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+    public void  setDuracaoEmMinutos(int duracaoEmMinutos) {
         this.duracaoEmMinutos = duracaoEmMinutos;
     }
 
