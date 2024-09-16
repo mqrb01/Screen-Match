@@ -1,6 +1,7 @@
-package br.com.alura.ScreenMatch;
+package br.com.alura.ScreenMatch.modelo;
 
-public class Filme {
+public class Titulo {
+
     private String nome ;
     private int anoDeLancamento;
     private boolean incluidoNoPlano;
@@ -57,9 +58,9 @@ public class Filme {
     }
 
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme: "+ nome);
+        System.out.println("Nome do título: "+ nome);
         System.out.println("Ano de lançamento: " + anoDeLancamento);
-        System.out.println("Duração do filme: " + duracaoEmMinutos + " minutos");
+        System.out.println("Duração do título: " + getDuracaoEmMinutos() + " minutos");
     }
     public void avalia(double nota){
         somaDasAvaliacoes += nota;
